@@ -1,0 +1,54 @@
+{
+  "name": "changelog",
+  "version": "0.1.0",
+  "description": "A Test Project for testing CHANGELOG",
+  "keywords": [
+    "changelog",
+    "versioning",
+    "testing",
+    "professional",
+    "open-source",
+    "documentation",
+    "typedoc",
+    "howto",
+    "usage",
+    "library"
+  ],
+  "repository": "github:eguneys/changelog",
+  "author": "Emre Güneyler",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc",
+    "docs:build": "typedoc --json docs/index.json",
+    "prepare": "pnpm build"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "typedoc": "^0.28.15",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@7.2.5"
+    },
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
