@@ -4,17 +4,26 @@ All notable changes to this project will be documented here.
 
 This project adheres to Semantic Versioning.
 
-## [Unreleased]
+## [0.1.1] - 2025-12-23
+
+### Added
+### Changed
+
+- Removed `docs-site` folder. We will have a single page documentation website.
+
+### Fixed
+
+## [0.1.0] - 2025-12-23
 
 ### Added
 
-- added 2 projects: docs-site for documentation and website for showcase page
-- added 2 folders: src test
-- added package.json tsconfig.json
-- added typedoc support
-- added changelog library source files
-- added LICENSE CONTRIBUTING.md README.md CHANGELOG.md
-- added .gitignore pnpm-workspace.yaml
+- Added 2 projects: `docs-site` for documentation and website for showcase page
+- Added 2 folders: `src` `test`
+- Added `package.json` `tsconfig.json`
+- Added typedoc support
+- Added changelog library source files
+- Added `LICENSE` `CONTRIBUTING.md` `README.md` `CHANGELOG.md`
+- Added `.gitignore` `pnpm-workspace.yaml`
 
 ### Changed
 ### Fixed
