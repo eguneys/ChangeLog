@@ -7,6 +7,10 @@ This project adheres to Semantic Versioning.
 ## [0.1.1] - 2025-12-23
 
 ### Added
+
+- Added Minimal Landing Page
+- Added tailwind.css
+
 ### Changed
 
 - Removed `docs-site` folder. We will have a single page documentation website.
