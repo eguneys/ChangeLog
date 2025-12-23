@@ -1,8 +1,8 @@
-\[img\] Banner Or Header
+# ChangeLog
 
-\[npm\] Badge
+![NPM Version](https://img.shields.io/npm/v/changelog-test-project)
 
-\[link\] Website • \[link\] Documentation
+[Website](https://eguneys.github.io/ChangeLog) • \[link\] Documentation
 
 A Test project to test semantic versioning.
 

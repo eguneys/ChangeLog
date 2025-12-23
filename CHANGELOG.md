@@ -4,6 +4,15 @@ All notable changes to this project will be documented here.
 
 This project adheres to Semantic Versioning.
 
+## [Unstaged]
+
+### Added
+- Added Github Actions configuration for deploying Website to Github Pages
+### Changed
+- 
+### Fixed
+
+
 ## [0.1.1] - 2025-12-23
 
 ### Added
