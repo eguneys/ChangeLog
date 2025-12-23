@@ -7,36 +7,22 @@ This project adheres to Semantic Versioning.
 ## [Unstaged]
 
 ### Added
-- Added Github Actions configuration for deploying Website to Github Pages
+- Deployed website to Github Pages. Accessible at [website](https://eguneys.github.io/ChangeLog/).
 ### Changed
-- 
-### Fixed
+- Revised `CHANGELOG.md`
 
 
 ## [0.1.1] - 2025-12-23
 
 ### Added
-
 - Added Minimal Landing Page
-- Added tailwind.css
-
 ### Changed
-
-- Removed `docs-site` folder. We will have a single page documentation website.
-
-### Fixed
+- Removed `docs-site` project. We will have a Single Page Website that showcases Examples as well as acts as an API Cheat-Sheet Reference.
 
 ## [0.1.0] - 2025-12-23
 
 ### Added
-
-- Added 2 projects: `docs-site` for documentation and website for showcase page
-- Added 2 folders: `src` `test`
-- Added `package.json` `tsconfig.json`
+- Added 2 projects: `docs-site` for documentation and `website` for showcase page
 - Added typedoc support
-- Added changelog library source files
+- Added source files
 - Added `LICENSE` `CONTRIBUTING.md` `README.md` `CHANGELOG.md`
-- Added `.gitignore` `pnpm-workspace.yaml`
-
-### Changed
-### Fixed
